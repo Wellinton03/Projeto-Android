@@ -1,0 +1,176 @@
+
+*{margin:0px; padding:0px; font-family: Arial, Helvetica, sans-serif;}
+
+@font-face {
+    font-family: 'idroid' ;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-size: normal;
+}
+
+body {
+    margin: 0px;
+    background-color: #85e0ac;
+}
+
+
+header {
+    background-image: linear-gradient(to bottom, #3ED381, rgb(43, 43, 43));
+    margin: 0px;
+    padding: 40px 20px 0px 20px;
+    text-align: center;
+    height: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+     
+}
+main {
+    margin-right: 20%;
+    margin-left: 20%;
+    height: 80%;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+    
+}
+
+
+header > h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+
+}
+
+header > p {
+    padding: 15px 5px  12px 5px;
+    color: white;
+    
+
+}
+
+menu {
+    text-align: left;
+    padding: 5px;
+    
+    
+}
+menu > a {
+    text-decoration: solid;
+    color: white;
+    padding: 5px;
+    text-indent: 0px;
+}
+
+menu > a:hover {
+    text-decoration: underline;
+    background-color: rgb(3, 71, 18);
+
+}
+
+.conteudo {
+    text-align: auto;
+    text-indent: 30px;
+    padding: 20px ;
+    font-size: 1rem;
+    line-height: 2em;
+}
+
+main > h1 {
+    font-family: "iDroid" ;
+    color: #057236;
+    padding: 10px 20px 15px 10px;
+
+}
+h2 {
+    font-family: "iDroid" ;
+    color: #057236;
+    padding: 5px 10px 5px 10px;
+    background-image: linear-gradient(to right, rgba(0, 255, 0, 0.151), white) ;
+
+}
+
+main > p > a { 
+    text-decoration: none;
+    color: rgb(0, 133, 33);
+}
+
+main > p > a:hover {
+    text-decoration: underline;
+    
+}
+
+.imagem {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+img {
+    width: 100%;
+    margin: 0px 10px;
+}
+.video {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding: 20px 1px;
+    background-color: #1A5C38;
+}
+
+h3 {
+    background-color: #489169;
+    padding:10px;
+    margin: 0% 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    margin-top: 10px;
+
+}
+    
+.footer {
+    text-indent: 30px;
+    padding: 20px 0px ;
+    font-size: 1rem;
+    line-height: 2em;
+    background-color: #B7E9CC;
+    margin: -1px 20px;
+    text-align: left;
+    
+}
+.tabela {
+
+    padding: 20px 5px ;
+    font-size: 1rem;
+    line-height: 2em;
+    background-color: #B7E9CC;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+ul {
+    columns: 2;
+    list-style-position: inside;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+li {
+    line-height: 1em;
+    
+}
+.creditos {
+    text-align: center;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
